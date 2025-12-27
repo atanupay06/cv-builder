@@ -1,0 +1,188 @@
+personal:
+  name: "Atanu Paul"
+  dob: "04th January, 1999"
+  phone: "+91-8967006057"
+  email: "paulatanu14@gmail.com"
+  linkedin: "https://www.linkedin.com/in/atanu-paul-181591232"
+  github: "https://github.com/atanupay06"
+  location: "Howrah, West Bengal, India"
+  role_title: "GIS & Data Science Specialist"
+
+summary:
+  text: >
+    Dynamic GIS and Data Science Specialist with proven 3+ years of
+    experience in geospatial analysis, cartography, simulation testing, and
+    advanced data automation. Expert in mapping, QA for autonomous vehicle
+    projects, and project data management. Strong background in team
+    leadership, quality control, and voluntary data science education.
+    Adept at optimizing workflows, driving throughput and precision, and
+    delivering impactful data-driven solutions.
+
+area_of_expertise:
+  - "Data Analysis - Visualizing with advanced charts and dashboards"
+  - "Utility Project Mapping - QA and geo-coding for electricity and gas networks"
+  - "Cartography - Traffic feature mapping and lane annotation for autonomous vehicles"
+  - "Geospatial Data Processing – Crop mapping and monitoring"
+  - "Programming and Automation - Python, R, C++, AppScript for workflow optimization"
+  - "Machine Learning - Applying spatial data models and data science techniques"
+  - "Project Data Management - Throughput, quality control, stack ranking preparation"
+  - "Simulation Testing - SME for road event simulation and autonomous vehicle behaviour analysis"
+  - "Collaboration & Version Control - Git, GitHub, CI/CD pipeline, team coordination"
+
+skills:
+  gis_remote_sensing:
+    label: "GIS & Remote Sensing"
+    items:
+      - "ArcMap 10.8"
+      - "ArcGIS Pro"
+      - "QGIS"
+      - "ERDAS Imagine"
+      - "ENVI"
+      - "Small World"
+      - "Google Earth Engine"
+      - "SNAP"
+  programming:
+    label: "Programming"
+    items:
+      - "Python"
+      - "R"
+      - "C++"
+      - "JavaScript"
+      - "Google Earth Engine"
+  data_visualization:
+    label: "Data Visualization"
+    items:
+      - "Power BI"
+      - "Google Looker Studio"
+      - "MS Excel (VBA, PivotTables)"
+      - "MS PowerPoint"
+      - "Google Spreadsheet"
+      - "Jira Dashboard"
+  data_ml:
+    label: "Data / ML"
+    items:
+      - "SQL"
+      - "scikit-learn"
+      - "pandas"
+      - "DBMS"
+      - "Data Warehousing"
+      - "Data Mining"
+  collaboration:
+    label: "Collaboration"
+    items:
+      - "Git"
+      - "GitHub"
+      - "VS Code"
+      - "CI/CD"
+  other:
+    label: "Other"
+    items:
+      - "Project Management"
+      - "QA"
+      - "Simulation Testing"
+      - "AV Behaviour"
+      - "Cartography"
+      - "YAML"
+      - "Jira"
+      - "Agile"
+
+experience:
+  - title: "GIS Engineer"
+    company: "AABSyS IT Pvt. Ltd"
+    location: "India"
+    start: "Oct 2022"
+    end: "May 2023"
+    projects: "Utility, Electricity, Gas Distribution"
+    bullets:
+      - "Streetlight Mapping Project (USA) – Used Smallworld GIS application to map streetlight features; performed Quality Assurance (QA) to ensure accuracy and reliability of spatial data and system functionality."
+      - "Meter Geo-coding Project (USA) – Processed geo-coded data in QGIS and ArcGIS Web to map utility features; conducted QA reviews to maintain high data accuracy standards."
+  - title: "Sr. ITES Executive"
+    company: "iMerit Technologies"
+    location: "India"
+    start: "May 2023"
+    end: "Present"
+    projects: "Cartography, Simulation Testing, AV Systems"
+    paragraphs:
+      - "In the Cartography Project (Autonomous Vehicles), leveraged Web-GIS and LiDAR data to map and analyze lanes and traffic features, integrating traffic movement data with spatial datasets to enhance autonomous vehicle navigation accuracy. Regularly reviewed and updated geospatial data based on real-time AV feedback and change requests, ensuring data reliability and relevance."
+      - "For Simulation Testing and Data Analysis, developed YAML-based simulation environments for AV scenarios and validated behavioral outcomes against real-world spatial data metrics. Tracked test issues and classified outcomes using Jira, performed in-depth data analysis for compliance, and extracted key insights for system improvement."
+      - "Managed end-to-end workflow integration with GitHub and CI/CD, using VS Code for code optimization and automated output evaluation. Led spatial data QA initiatives, produced RCA reports and decision trees to reduce mapping errors, designed process flowcharts for efficiency, analyzed monthly project health through productivity data, and escalated technical issues to ensure rapid resolution of geospatial tool challenges for the team."
+
+volunteer:
+  - title: "Data Science Trainer (Volunteer)"
+    organization: "Vidyasagar University & Online via LinkedIn"
+    bullets:
+      - "Conducting data science training sessions covering data analysis, visualization, and hands-on projects on Python with Pandas, NumPy, and visualization tools."
+  - title: "Data Science Trainer"
+    organization: "SentientWare Tech Solutions Pvt. Ltd."
+    bullets:
+      - "Covering basics to intermediate concepts of Data Science in internship programmes."
+
+education:
+  - degree: "M. Sc. in Remote Sensing and GIS"
+    institution: "Vidyasagar University"
+    location: "West Bengal, India"
+    start: "2020"
+    end: "2022"
+    grade: "9.06/10"
+  - degree: "Diploma in Data Science"
+    institution: "Vidyasagar University (CCAE)"
+    location: "West Bengal, India"
+    start: "2022"
+    end: "2023"
+    grade: "93.4%"
+  - degree: "B. Sc. in Mathematics"
+    institution: "Vidyasagar University"
+    location: "West Bengal, India"
+    start: "2017"
+    end: "2020"
+    grade: "7.7/10"
+
+certifications:
+  - "Diploma in Data Science - Vidyasagar University (VU)"
+  - "Advanced Google Sheet customization using AppScript"
+  - "Probability for Data Science - Great Learning"
+  - "Artificial Intelligence Fundamentals - Great Learning"
+  - "Introduction to Deep Learning - Great Learning"
+  - "Java Programming - Great Learning"
+  - "Advance MS Excel VBA - Udemy"
+  - "Git and GitHub Bootcamp in 2025 - Udemy"
+  - "Microsoft Excel Pivot Tables - Udemy"
+  - "Python for Data Science - Udemy"
+  - "ChatGPT + Bing (Copilot) - Prompt Engineering - Udemy"
+  - "Google Looker Masterclass: Looker & LookML A-Z 2025 - Udemy"
+
+personal_skills:
+  - "Leadership"
+  - "Teamwork"
+  - "Instant and creative problem solving"
+  - "Communication and public speaking"
+  - "Self-motivated"
+  - "Time management"
+  - "Customer service"
+  - "Planning & organized"
+  - "Adaptability"
+
+languages:
+  - name: "Bengali"
+    level: "Native"
+  - name: "Hindi"
+    level: "Fluent"
+  - name: "English"
+    level: "Fluent"
+  - name: "Odia"
+    level: "Speak"
+
+hobbies:
+  - "Cricket"
+  - "Gardening"
+  - "Drawing"
+
+paper:
+  title: "Comparison between Sentinel-based Optical and SAR Data for Paddy Acreage Mapping and Yield Prediction"
+  institution: "Vidyasagar University"
+  advisor: "Dr. Jatisankar Bandyopadhyay, Associate Professor, Department of Remote Sensing and GIS"
+  description: >
+    Research involving advanced geospatial analysis techniques and
+    contributing to the development of more accurate methods for crop
+    area estimation and yield forecasting using multi-source satellite
+    data.

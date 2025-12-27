@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Builder - Atanu Paul</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CV Builder</h1>
+            <select id="templateSelect">
+                <option value="classic">Classic (Two-Column)</option>
+                <option value="modern">Modern (Single-Column)</option>
+            </select>
+            <button id="loadBtn">Load YAML</button>
+            <button id="saveBtn">Save YAML</button>
+            <button id="exportBtn">Export PDF</button>
+        </header>
+
+        <div class="editor-preview">
+            <!-- Editor Form -->
+            <div class="editor">
+                <section>
+                    <h2>Personal Info</h2>
+                    <input id="name" placeholder="Name" value="Atanu Paul">
+                    <input id="phone" placeholder="Phone" value="91-8967006057">
+                    <input id="email" placeholder="Email" value="paulatanu14@gmail.com">
+                    <input id="location" placeholder="Location" value="Howrah, West Bengal, India">
+                    <input id="linkedin" placeholder="LinkedIn" value="https://www.linkedin.com/in/atanu-paul-181591232">
+                    <input id="github" placeholder="GitHub" value="github.com/atanupay06">
+                </section>
+                <section>
+                    <h2>Work Experience</h2>
+                    <div class="exp-item">
+                        <input class="job-title" placeholder="Title" value="GIS Engineer">
+                        <input class="company" placeholder="Company" value="AABSyS IT Pvt. Ltd">
+                        <input class="dates" placeholder="Dates" value="Oct 2022 - May 2023">
+                        <textarea class="desc" placeholder="Description">Streetlight Mapping Project USA - Used Smallworld GIS... Meter Geo-coding Project USA...</textarea>
+                    </div>
+                    <div class="exp-item">
+                        <input class="job-title" placeholder="Title" value="Sr. ITES Executive">
+                        <input class="company" placeholder="Company" value="iMerit Technologies">
+                        <input class="dates" placeholder="Dates" value="May 2023 - Present">
+                        <textarea class="desc" placeholder="Description">Cartography Project Autonomous Vehicles... Simulation Testing and Data Analysis...</textarea>
+                    </div>
+                </section>
+                <section>
+                    <h2>Education</h2>
+                    <div class="edu-item">
+                        <input class="degree" value="M. Sc. In Remote Sensing and GIS">
+                        <input class="inst" value="Vidyasagar University">
+                        <input class="dates" value="2020 - 2022">
+                        <input class="gpa" value="9.06/10">
+                    </div>
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <textarea id="skillsList">GIS Remote Sensing: ArcMap 10.8, ArcGIS Pro, QGIS...
+Programming: Python, R, C, Java Script...
+Data Visualization: Power BI, Google Looker Studio...</textarea>
+                </section>
+            </div>
+
+            <!-- Preview Pane -->
+            <div class="preview">
+                <iframe id="previewFrame"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
